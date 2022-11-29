@@ -1,0 +1,11 @@
+.button {
+	-fx-font-size: 24px;
+	-fx-font-weight: bold;
+	-fx-background-color: pink;
+	-fx-font-family:'serif';
+}
+
+.border {
+	-fx-background-color: orange;
+	-fx-font-family:'serif';
+}

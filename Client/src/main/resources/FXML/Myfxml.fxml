@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" styleClass="vbox" fx:controller = "MyController"
+			fx:id = "root">
+	<!-- TODO Add Nodes -->
+	<Text styleClass="txt" text="Welcome to connect 4!"/>
+	<TextField fx:id = "port" text="enter port number" editable="false"/>
+    <TextField fx:id = "textField"/>
+	<TextField fx:id = "ip" text="enter ip address" editable="false"/>
+	<TextField fx:id = "ipText"/>
+	<Button fx:id = "btn1" text="submit" onAction = "#b1Method"/>
+</VBox>
+

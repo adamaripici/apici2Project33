@@ -1,0 +1,17 @@
+.button{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-background-color: green;
+	-fx-font-family:'serif';
+}
+
+.vbox{
+	-fx-background-color: purple;
+    -fx-font-family:'serif';
+}
+
+.txt {
+    -fx-font-family: "Serif";
+    -fx-font-size: 30px;
+    -fx-color: "red";
+}
